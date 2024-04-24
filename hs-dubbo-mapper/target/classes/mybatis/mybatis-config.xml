@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!--        后台的日志输出：针对开发者-->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+        <!--        开启驼峰映射-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--        开启二级缓存-->
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+</configuration>
